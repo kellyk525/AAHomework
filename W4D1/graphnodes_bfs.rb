@@ -42,4 +42,4 @@ end
 p bfs(a,"b")
 p bfs(a,"f")
 # can't reach f so it will return "nil"
-# need the visited, so that it doesn't end up in a loop!!
+# need the "visited" set, so that it doesn't end up in a loop!!
